@@ -2,14 +2,14 @@
 
 using namespace std;
 
-int maxOfArray(int array[], int size) {
-    int max = array[0];
+int minOfArray(int array[], int size) {
+    int min = array[0];
     for (int i = 1; i < size; i++) {
-        if (array[i] > max) {
-            max = array[i];
+        if (array[i] < min) {
+            min = array[i];
         }
     }
-    return max;
+    return min;
 }
 
 int* inputArray(int size) {
@@ -21,6 +21,6 @@ int* inputArray(int size) {
 }
 
 int main() {
-    cout << maxOfArray(inputArray(5), 5);
+    cout << minOfArray(inputArray(5), 5);
     return 0;
 }
