@@ -1,2 +1,4 @@
 # maxOfArray
 The function is passed a pointer to an list of integers and the size of the array. The function loops through the list and compares the current element to the biggest element found so far. If the current element is bigger than the biggest element found so far, then the current element is stored as the biggest element found so far. After the loop has finished, the biggest element found so far is returned.
+# inputArray
+The function is passed the size of the array. The function loops through the list and asks the user to enter an integer. The integer is then stored in the current element of the list.
